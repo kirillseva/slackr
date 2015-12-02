@@ -1,0 +1,11 @@
+language: r
+sudo: required
+warnings_are_errors: false
+
+r_github_packages:
+  - jimhester/covr
+  - hadley/devtools
+  - hadley/httr
+  - jeroenooms/jsonlite
+after_success:
+  - Rscript -e 'covr::codecov()'

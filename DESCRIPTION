@@ -1,0 +1,19 @@
+Package: slackr
+Type: Package
+Title: slackr (http://github.com/kirillseva/slackr)
+Description: Slack client for R.
+Version: 0.0.0.9000
+Author: Kirill Sevastyanenko <kirillseva@gmail.com>
+Maintainer: Kirill Sevastyanenko <kirillseva@gmail.com>
+Authors@R: c(person("Kirill", "Sevastyanenko",
+    email = "kirillseva@gmail.com", role = c("aut", "cre")))
+Depends:
+    R (>= 3.0.1)
+License: MIT
+LazyData: true
+Imports:
+    httr,
+    jsonlite
+Suggests:
+    testthat
+Roxygen: list(wrap = FALSE)
