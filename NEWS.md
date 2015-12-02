@@ -1,3 +1,2 @@
-# Version 0.1.0
-
-  * The initial creation of the package.
+# Version 0.0.1
+- The initial creation of the package.
