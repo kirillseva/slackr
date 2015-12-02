@@ -33,7 +33,9 @@ att <- list(
       value = "20 min",
       short = TRUE
     )
-  )
+  ),
+  image_url = "http://my-website.com/path/to/image.jpg",
+  thumb_url = "http://example.com/path/to/thumb.png"
 )
 slackr::send_message('message body', attachments = att)
 ```
