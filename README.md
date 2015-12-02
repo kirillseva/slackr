@@ -37,3 +37,5 @@ att <- list(
 )
 slackr::send_message('message body', attachments = att)
 ```
+
+![proof](http://puu.sh/lGlnW/3c1e0e2a41.png)
